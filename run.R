@@ -1,0 +1,6 @@
+dir.create("outputs", showWarnings = FALSE)
+source("scripts/clean.R")
+source("scripts/descriptive.R")
+source("replication/time_effect.R")
+source("project/heterogeneity.R")
+writeLines(capture.output(sessionInfo()), "outputs/sessionInfo.txt")

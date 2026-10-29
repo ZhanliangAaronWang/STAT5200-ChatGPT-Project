@@ -1,0 +1,15 @@
+"term","estimate","se"
+"(Intercept)",-7.42142848586132,7.09553409936865
+"treatment",-10.8423728174223,1.38205940404212
+"factor(occupation)consultant",7.98990929339706,7.66298177607878
+"factor(occupation)data analyst",8.89286631797376,7.38794761348499
+"factor(occupation)grant writer",6.98485192869996,7.62866277957737
+"factor(occupation)manager",4.1467943222292,7.23919721905746
+"factor(occupation)marketer",11.8578222532473,7.44289404030421
+"factor(a_first)1",4.83827515008268,7.64262276514239
+"factor(incentive_arm)linear",-1.50621528038011,1.38867329427607
+"factor(occupation)consultant:factor(a_first)1",-5.30732071849748,8.49035531893797
+"factor(occupation)data analyst:factor(a_first)1",-8.28857762737071,8.40030005264934
+"factor(occupation)grant writer:factor(a_first)1",-14.0704221215813,8.57904739070619
+"factor(occupation)manager:factor(a_first)1",1.17597603821141,7.86548783302728
+"factor(occupation)marketer:factor(a_first)1",-7.68689854932725,8.21568606174324

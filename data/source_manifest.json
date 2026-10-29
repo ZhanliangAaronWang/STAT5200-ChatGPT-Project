@@ -1,0 +1,26 @@
+[
+  {
+    "file": "data/raw/fullsurvey.csv",
+    "url": "https://osf.io/download/dch8w/",
+    "sha256": "06f430ba9a9194039530721d68ad37f95552977a1ae1868c9228d1ce6334db0f",
+    "bytes": 22753065
+  },
+  {
+    "file": "data/raw/grading.xlsx",
+    "url": "https://osf.io/download/m35kf/",
+    "sha256": "76e66cb815a3e9b7e333ff50f8f49fd661857bc4614fae62fb987d06590edd1e",
+    "bytes": 48551
+  },
+  {
+    "file": "data/raw/grading_retry.xlsx",
+    "url": "https://osf.io/download/3qcfb/",
+    "sha256": "09009bc52b50d76e4585a8072a63115c819dbd21ab5da553c7f5bd01b2898e27",
+    "bytes": 22050
+  },
+  {
+    "file": "data/raw/grading_long_complete.csv",
+    "url": "https://osf.io/download/hdszk/",
+    "sha256": "92771e43f2116df81a8681d281a94e94dec8ca4a2d0a04ff0a1ecfe3bcdc2779",
+    "bytes": 1369616
+  }
+]
