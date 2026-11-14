@@ -47,7 +47,8 @@ grading.xlsx first, following the append-and-deduplicate order in the authors'
 code. Exclude a participant when the maximum check exceeds 1 or the minimum is
 below 1. Exclude participants whose task date follows their earliest grading date.
 This recovers 453 participants. Restrict to linear and convex incentive arms for
-the time analysis, leaving 356 (187 control and 169 treatment).
+the time analysis, leaving 359 (187 control and 172 treatment). Of these, 356 have task-2 time
+recorded and 346 have complete time changes.
 
 Variables
 treatment: randomized encouragement to register for and use ChatGPT, 0/1.
@@ -118,3 +119,22 @@ files contain full coefficient tables. The Python script also generates results.
 grader_screening.csv, and the grade-pair analysis samples locally. Confidence
 intervals use Student-t critical values, with residual degrees of freedom for HC1
 and number of participant clusters minus one for the quality model.
+
+Additional presentation checks
+After running the productivity replication, run:
+    python3 replication/presentation_checks.py
+The script generates outputs/additional_results.csv and outputs/presentation_checks.json.
+It reports unadjusted and adjusted change models, an ANCOVA check on the same
+346 participants, the joint interaction model's subgroup effects using the full
+covariance matrix, the missingness audit, and exact empirical CDF coordinates.
+ANCOVA estimates -10.3395 minutes (HC1 SE 1.1099). The subgroup assignment effect
+is -12.2725 minutes for previous nonusers and -8.0041 for previous users; the
+interaction remains imprecise (p = 0.144). These are additional or exploratory
+analyses, not additional preregistered findings from the original paper.
+
+The sample audit corrects the earlier description of 356 as the eligible main
+sample: 453 cleaned participants comprise 359 in the linear/convex arms and
+94 in the exact-time arm. The regression estimates are unchanged.
+Presentation equations are supplied as LaTeX source in presentation/equations/.
+The revised presentation has 10 main slides and 3 supplementary slides, with
+speaker notes in presentation/speaker_notes.json.
