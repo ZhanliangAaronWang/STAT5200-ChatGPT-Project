@@ -22,5 +22,11 @@
     "url": "https://osf.io/download/hdszk/",
     "sha256": "92771e43f2116df81a8681d281a94e94dec8ca4a2d0a04ff0a1ecfe3bcdc2779",
     "bytes": 1369616
+  },
+  {
+    "file": "data/raw/grading_wide_complete.csv",
+    "url": "https://files.us.osf.io/v1/resources/xd7qw/providers/osfstorage/6451638e95393f0c44676352",
+    "sha256": "b0048dc462d4d3353bd7cd16d8563178d8140d4312121b560c8947e418a125a4",
+    "bytes": 1034104
   }
 ]
